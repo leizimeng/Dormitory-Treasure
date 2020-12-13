@@ -1,0 +1,3 @@
+<!--miniprogram/pages/lightoff/lightoff.wxml-->
+<web-view src="http://192.168.43.179/gpio/0" bindload="bindload" binderror="binderror"></web-view>
+

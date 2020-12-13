@@ -1,0 +1,33 @@
+<view class="background">
+      <view class="blank03">
+            <view>
+                  <button class="btn-new" hover-class="btn-new-hover" bindtap="bindNewTap">+ 添加一笔新账单</button>
+            </view>
+      </view>
+      <view class="blank03">
+            <view>
+                  <button class="btn-new" hover-class="btn-new-hover" bindtap="account">查看账单</button>
+            </view>
+      </view>
+      <view>{{dateA}}</view>
+      <view>{{titleA}}</view>
+      <view>{{moneyA}}</view>
+      <view>{{dateB}}</view>
+      <view>{{titleB}}</view>
+      <view>{{moneyB}}</view>
+      <view>{{dateC}}</view>
+      <view>{{titleC}}</view>
+      <view>{{moneyC}}</view>
+      <view>{{dateD}}</view>
+      <view>{{titleD}}</view>
+      <view>{{moneyD}}</view> 
+      <view>{{dateE}}</view>
+      <view>{{titleE}}</view>
+      <view>{{moneyE}}</view> 
+ 
+
+      
+
+</view>
+
+ 

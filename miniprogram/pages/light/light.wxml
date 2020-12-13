@@ -1,0 +1,17 @@
+<view class="background">
+
+  <view class="blank02">
+<button class="light-on" hover-class="btn-light-on-hover" bindtap="bindLighton">开灯</button>
+  </view>
+
+  <view class="blank02">
+<button class="light-off" hover-class="btn-light-off-hover" bindtap="bindLightoff">关灯</button>
+  </view>
+
+  <view class="blank02">
+<button class="hwgy-on" hover-class="btn-hwgy-on-hover">开启红外感应模式</button>
+  </view>
+  <view class="blank02">
+<button class="hwgy-off" hover-class="btn-hwgy-off-hover">关闭红外感应模式</button>
+  </view>
+</view>

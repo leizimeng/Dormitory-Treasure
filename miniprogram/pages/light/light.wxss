@@ -1,0 +1,55 @@
+.background{
+    height:900px;
+    background-color:#FFF5EE;
+  }
+.light-on{
+    background-color:	#FFE4E1;
+    border-radius: 30rpx;
+    width: 50%;
+    height: 80rpx;
+    line-height: 80rpx;
+    font-size: 35rpx;
+    color:#F08080;
+  }
+.light-off{
+    background-color:	#FFE4E1;
+    border-radius: 30rpx;
+    width: 50%;
+    height: 80rpx;
+    line-height: 80rpx;
+    font-size: 35rpx;
+    color:#F08080;
+  }
+.hwgy-on{
+    background-color:	#FFE4E1;
+    border-radius: 30rpx;
+    width: 50%;
+    height: 80rpx;
+    line-height: 80rpx;
+    font-size: 35rpx;
+    color:#F08080;
+  }
+  .hwgy-off{
+    background-color:	#FFE4E1;
+    border-radius: 30rpx;
+    width: 50%;
+    height: 80rpx;
+    line-height: 80rpx;
+    font-size: 35rpx;
+    color:#F08080;
+  }
+.btn-light-on-hover {
+    background-color: 	#FFFAFA;
+  }
+.btn-light-off-hover {
+    background-color: 		#FFFAFA;
+  }
+.btn-hwgy-on-hover {
+    background-color: 	#FFFAFA;
+  }
+  .btn-hwgy-off-hover {
+    background-color: 	#FFFAFA;
+  }
+.blank02{
+    margin: 130rpx;
+  }

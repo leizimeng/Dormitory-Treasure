@@ -1,0 +1,22 @@
+<canvas class = "canvas" id="chart1"
+canvas-id="humidity"></canvas>
+
+<!--<canvas class = "canvas" id="chart2"
+canvas-id="light"></canvas>-->
+
+<canvas class = "canvas" id="chart3"
+canvas-id="tempe"></canvas>
+<view class="blank03">
+
+<view wx:if="{{tempe>30}}">可以穿凉快点啦！好热哟~开空调叭！别中暑！</view>
+<view wx:if="{{tempe>20&&tempe<=30}}">长短袖皆宜，可以带件薄外套哦~</view>
+<view wx:if="{{tempe>10&&tempe<=20}}">风衣可以安排啦！</view>
+<view wx:if="{{tempe<=10}}">厚衣服都安排上！</view>
+<view wx:if="{{humidity>45&&humidity<65}}">湿度适宜，继续保持</view>
+<view wx:if="{{humidity>=65}}">湿度过高</view>
+<view wx:if="{{humidity<=45}}">湿度较低，注意加湿补水</view>
+<!--<view>长短袖皆宜，可以带件薄外套哦~</view>
+<view>湿度较低，注意加湿补水</view>-->
+
+
+</view>

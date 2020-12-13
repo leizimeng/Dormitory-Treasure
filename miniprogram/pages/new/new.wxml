@@ -1,0 +1,29 @@
+<view class="background">
+  
+  <form bindsubmit="formSave">
+    <!--日期-->
+    <view>日期</view>
+    <picker name="pickerDate" mode="date" value="{{date}}" start="2020-01-01" end="2025-01-01" bindchange="bindDateChange" >
+      <view class="input-new">{{date}}</view>
+    </picker>
+    <view class="hs20"></view>
+    <!--物品-->
+    <view>物品</view>
+    <input name="inputTitle" class="input-new" bindinput="bindTitleInput" value="{{title}}" />
+    <view class="hs20"></view>
+    <!--金额-->
+    <view>金额</view>
+    <input name="inputMoney" type="digit" class="input-new" bindinput="bindMoneyInput"  value="{{money}}" />
+    <view class="hs20"></view>
+
+    <button class="btn-new" hover-class="btn-new-hover" form-type="submit" >保存</button>
+    <view class="hs20"></view>
+
+    <!--保存
+    <button class="btn-new" hover-class="btn-new-hover" form-type="submit" loading="{{loadingStatus}}">保存</button>
+    <view class="hs20"></view>-->
+  </form>
+
+  <!--<image src="https://cn.bing.com/images/search?view=detailV2&ccid=feyilngh&id=35C34B5317EF888BF0C30C6B527F74BE20373C6F&thid=OIP.feyilnghmTDbFZeFs0ZD3AHaEK&mediaurl=http%3a%2f%2fimg15.3lian.com%2f2015%2ff1%2f10%2fd%2f55.jpg&exph=1080&expw=1920&q=%e5%8f%af%e7%88%b1%e5%9b%be%e7%89%87&simid=608023015731168802&ck=6E1B22437C010B378EDD2702BBA48A96&selectedIndex=101&FORM=IRPRST&ajaxhist=0"></image>-->
+</view>
+

@@ -1,0 +1,2 @@
+<!--miniprogram/pages/redon/redon.wxml-->
+<web-view src="http://192.168.43.179/gpio/1" bindload="bindload" binderror="binderror"></web-view>

@@ -1,0 +1,18 @@
+<view class="background">
+
+<view class="blank01">
+  <view>
+      <button class="btn-light" hover-class="btn-light-hover" bindtap="bindLight">灯光控制</button>
+  </view>
+</view>
+<view class="blank01">
+  <view>
+      <button class="btn-environment" hover-class="btn-environment-hover" bindtap="bindEnvironment">环境监测</button>
+  </view>
+</view>
+<view class="blank01">
+  <view>
+      <button class="btn-accountMainPage" hover-class="btn-accountMainPage-hover" bindtap="bindAccountMainPage">公共记账</button>
+  </view>
+</view>
+</view>

@@ -1,0 +1,22 @@
+.btn-new {
+    background-color:	#FFE4E1;
+    border-radius: 30rpx;
+    width: 50%;
+    height: 80rpx;
+    line-height: 80rpx;
+    font-size: 35rpx;
+    color:#F08080;
+  }
+.btn-new-hover {
+    background-color: 	#FFFAFA;
+  }
+.background{
+    height:900px;
+    background-color:#FFF5EE;
+  }
+.blank03{
+    margin: 100rpx;
+  }
+.date{
+  margin-right:57%;
+}

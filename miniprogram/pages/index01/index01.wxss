@@ -1,0 +1,47 @@
+page{
+    height:100%;
+    width:100%;
+}
+.btn-light{
+    background-color:	#FFE4E1;
+    border-radius: 30rpx;
+    width: 50%;
+    height: 80rpx;
+    line-height: 80rpx;
+    font-size: 35rpx;
+    color:#F08080;
+  }
+.btn-light-hover {
+    background-color: 	#FFFAFA;
+  }
+.btn-environment{
+    background-color:	#FFE4E1;
+    border-radius: 30rpx;
+    width: 50%;
+    height: 80rpx;
+    line-height: 80rpx;
+    font-size: 35rpx;
+    color:#F08080;
+  }
+.btn-environment-hover {
+    background-color: 	#FFFAFA;
+  }
+.btn-accountMainPage{
+    background-color:	#FFE4E1;
+    border-radius: 30rpx;
+    width: 50%;
+    height: 80rpx;
+    line-height: 80rpx;
+    font-size: 35rpx;
+    color:#F08080;
+  }
+.btn-accountMainPage-hover {
+    background-color: 	#FFFAFA;
+  }
+.blank01{
+    margin: 120rpx;
+}
+.background{
+    height:100%;
+    background-color:#FFF5EE;
+}

@@ -1,0 +1,2 @@
+<!--miniprogram/pages/redoff/redoff.wxml-->
+<web-view src="http://192.168.43.179/gpio/2" bindload="bindload" binderror="binderror"></web-view>
